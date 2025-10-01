@@ -148,10 +148,6 @@ Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
   Atur privasi album: publik, tersembunyi, atau pribadi.
   Gunakan fitur pencarian untuk menemukan gambar dengan cepat.
 
-6. Fitur Multi-User
-  Admin dapat mengaktifkan registrasi sehingga pengguna lain bisa membuat akun.
-  Setiap pengguna memiliki galeri sendiri dan bisa mengatur privasi gambar.
-   
 **Tips Penggunaaan**: 
 
 1. Gunakan Album untuk Organisasi
@@ -175,8 +171,7 @@ Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
 6. Rutin Backup Database & Folder
   Backup folder ./images dan database MariaDB secara berkala untuk menghindari kehilangan data jika server bermasalah.
 
-7. Aktifkan Registrasi Hanya Jika Dibutuhkan
-  Jika hanya untuk pribadi, nonaktifkan registrasi user baru. Kalau untuk komunitas, gunakan persetujuan admin agar tidak disalahgunakan.
+
 ## Pembahasan
 ## Kelebihan Chevereto
 
