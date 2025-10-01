@@ -79,37 +79,32 @@ Buat server configurasi server nginx
 server {
     listen 80;
     server_name chevereto.kdjkp3.my.id;
-    return 301 https://$host$request_uri;
-}
-
-server {
-    listen 443 ssl;
-    server_name chevereto.kdjkp3.my.id;
-
-    client_max_body_size 128m;
 
     location / {
         proxy_pass http://127.0.0.1:8080;
-        proxy_http_version 1.1;
         proxy_set_header Host              $host;
         proxy_set_header X-Real-IP         $remote_addr;
         proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
         proxy_set_header X-Forwarded-Proto $scheme;
     }
-
-
-    # Saya dapat dengan menjalankan certbot dahulu
-    ssl_certificate     /etc/letsencrypt/live/chevereto.kdjkp3.my.id/fullchain.pem;
-    ssl_certificate_key /etc/letsencrypt/live/chevereto.kdjkp3.my.id/privkey.pem;
-    include /etc/letsencrypt/options-ssl-nginx.conf;
-    ssl_dhparam         /etc/letsencrypt/ssl-dhparams.pem;
 }
 
+Lalu jalankan
 ```
-Coba curl https nya
+sudo ln -s /etc/nginx/sites-available/chevereto.conf /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+
+```
+
+Jalankan certbot untuk https
+```
+sudo certbot --nginx -d chevereto.kdjkp3.my.id
+```
+
+Coba curl ke https
 ```
 curl -I https://chevereto.kdjkp3.my.id
-
 ```
 
 Hasilnya akan seperti ini jika berhasil
