@@ -124,10 +124,59 @@ alt-svc: h3=":443"; ma=86400
 ```
 Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
 ## Cara Pemakaian
+1. Akses Halaman Web
+  Setelah instalasi dan konfigurasi selesai, buka browser dan akses:
+  https://chevereto.kdjkp3.my.id
+  Anda akan diarahkan ke halaman utama Chevereto.
 
+2. Proses Setup Awal
+  Pertama kali masuk, Chevereto akan meminta konfigurasi dasar.
+  Masukkan nama situs, alamat email admin, dan buat akun admin.
+  Setelah itu, klik Finish Installation.
+
+3. Login Sebagai Admin
+  Masuk ke dashboard admin menggunakan akun yang sudah dibuat.
+  Dari sini Anda bisa mengatur pengaturan global, tema, registrasi user, serta batasan upload.
+
+4. Mengunggah Gambar
+  Klik tombol Upload di menu utama.
+  Seret dan jatuhkan gambar atau pilih file dari perangkat.
+  Setelah selesai, Chevereto akan memberikan link langsung (direct link), HTML embed, atau BBCode untuk berbagi.
+
+5. Manajemen Galeri
+  Buat album untuk mengelompokkan foto.
+  Atur privasi album: publik, tersembunyi, atau pribadi.
+  Gunakan fitur pencarian untuk menemukan gambar dengan cepat.
+
+6. Fitur Multi-User
+  Admin dapat mengaktifkan registrasi sehingga pengguna lain bisa membuat akun.
+  Setiap pengguna memiliki galeri sendiri dan bisa mengatur privasi gambar.
    
 **Tips Penggunaaan**: 
 
+1. Gunakan Album untuk Organisasi
+  Buat album khusus (misalnya: event, produk, meme, fotografi pribadi) agar gambar mudah dicari dan tidak bercampur.
+
+2. Atur Privasi dengan Bijak
+  Gunakan opsi di bawah ini sesuai kebutuhan berbagi atau menjaga kerahasiaan:
+  Publik: semua orang bisa lihat.
+  Tersembunyi: hanya bisa diakses dengan link langsung.
+  Pribadi: hanya pemilik yang bisa lihat.
+  
+3. Manfaatkan Link Otomatis
+  Setelah upload, Chevereto memberikan berbagai format link (direct URL, HTML <img>, BBCode [img]). Pilih sesuai platform tempat gambar akan dibagikan (misalnya forum,   blog, atau media sosial).
+
+4. Kelola Kapasitas Penyimpanan
+  Monitor ukuran folder ./images di server. Jika server hampir penuh, pertimbangkan menambahkan storage eksternal (misalnya S3 compatible storage).
+
+5. Batasi Ukuran & Jenis File
+  Admin bisa mengatur batas ukuran upload per gambar dan tipe file yang diperbolehkan agar server tidak terbebani.
+
+6. Rutin Backup Database & Folder
+  Backup folder ./images dan database MariaDB secara berkala untuk menghindari kehilangan data jika server bermasalah.
+
+7. Aktifkan Registrasi Hanya Jika Dibutuhkan
+  Jika hanya untuk pribadi, nonaktifkan registrasi user baru. Kalau untuk komunitas, gunakan persetujuan admin agar tidak disalahgunakan.
 ## Pembahasan
 ## Kelebihan Chevereto
 
