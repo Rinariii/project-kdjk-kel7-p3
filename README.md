@@ -2,7 +2,7 @@
 
 # Aplikasi Web "Chevereto"
 
-## Sekilas Tentang
+## Deskripsi Aplikasi
 
 Chevereto adalah aplikasi self-hosted untuk membangun layanan image hosting atau galeri foto online. Dengan Chevereto, pengguna dapat mengunggah, menyimpan, dan membagikan gambar secara mudah melalui antarmuka web yang modern dan responsif.
 
