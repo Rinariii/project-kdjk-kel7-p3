@@ -153,5 +153,3 @@ Maka web bisa diakses di chevereto.kdjk.my.id
 
 
 ## Referensi
-
-(https://docs.atomicdata.dev/)
