@@ -60,9 +60,7 @@ docker-compose up -d
 Coba curl untuk mencecek
 ```
 curl -I http://127.0.0.1:8080/
-```
 
-```
 HTTP/1.1 200 OK
 Date: Tue, 30 Sep 2025 16:20:16 GMT
 Server: Apache/2.4.62 (Debian)
@@ -88,6 +86,7 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+```
 
 Lalu jalankan
 ```
@@ -105,10 +104,7 @@ sudo certbot --nginx -d chevereto.kdjkp3.my.id
 Coba curl ke https
 ```
 curl -I https://chevereto.kdjkp3.my.id
-```
 
-Hasilnya akan seperti ini jika berhasil
-```
 HTTP/2 200
 date: Wed, 01 Oct 2025 02:41:50 GMT
 content-type: text/html; charset=UTF-8
