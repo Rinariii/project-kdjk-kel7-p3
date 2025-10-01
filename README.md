@@ -122,7 +122,7 @@ set-cookie: PHPSESSID=06ee2d349cb9a7cdb3552faac4d47e10; HttpOnly; Secure; Path=/
 cf-ray: 98789a68485f2aca-LHR
 alt-svc: h3=":443"; ma=86400
 ```
-Maka web bisa diakses di chevereto.kdjk.my.id
+Maka web bisa diakses di (https://chevereto.kdjk.my.id)
 ## Cara Pemakaian
 
    
@@ -136,7 +136,7 @@ Maka web bisa diakses di chevereto.kdjk.my.id
 
 
 
-## Perbandingan Atomic Data dengan Aplikasi Web Sejenis
+## Perbandingan Chevereto dengan Aplikasi Web Sejenis
 
 
 ## Kesimpulan
