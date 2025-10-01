@@ -1,5 +1,4 @@
-# project-kdjk-kel7-p3
-# Projek_KDJK_kel5_P1
+# Project KDJK Kelompok 7 Paralel 3
 
 # Aplikasi Web "Chevereto"
 
