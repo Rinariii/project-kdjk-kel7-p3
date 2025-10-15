@@ -175,48 +175,48 @@ Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
 ## Pembahasan
 ## Kelebihan Chevereto
 
-1. Kontrol penuh atas data & privasi
+**1. Kontrol penuh atas data & privasi**
    Karena self-hosted, pengguna punya kontrol atas server, data, backup, konfigurasi keamanan. Tidak tergantung pada layanan pihak ketiga yang mungkin tutup atau ada kebijakan yang berubah. 
 
-2. Fleksibilitas dalam kustomisasi
+**2. Fleksibilitas dalam kustomisasi**
   Bisa ubah tema / tampilan, layout, konfigurasi album publik / privat, upload drag-and-drop, dan konfigurasi pengelolaan gambar seperti watermark, penghapusan metadata EXIF, dsb. 
 
-3. Fitur modern dan lengkap
+**3. Fitur modern dan lengkap**
   - Mendukung upload massal / bulk uploads (banyak file sekaligus). 
   - API untuk integrasi & pengembangan custom. 
   - Dukungan versi untuk images & video. 
   - Fitur manajemen seperti album, tags, kategori, privasi, user permissions. 
 
-4. Skalabilitas & performa yang cukup baik
+**4. Skalabilitas & performa yang cukup baik**
   Chevereto bisa dijalankan di berbagai jenis server / lingkungan (VPS, Docker, panel hosting, dll). Ada dukungan caching, optimasi gambar, dan dukungan untuk storage eksternal seperti S3 (tergantung edisi). 
 
-5. Tersedia edisi gratis open source
+**5. Tersedia edisi gratis open source**
   Untuk penggunaan pribadi yang tidak butuh semua fitur canggih, versi Free sudah cukup banyak fiturnya. 
 
 ## Kekurangan Chevereto
 
-1. Fitur terbatas di versi gratis
+**1. Fitur terbatas di versi gratis**
   Banyak fitur “premium” yang hanya tersedia di versi Lite / Pro/Dibayar. Contohnya: dukungan lebih lanjut untuk storage eksternal, multi-user dengan kontrol lengkap, integrasi tertentu, mungkin limit upload atau fitur moderasi.
 
-2. Butuh kemampuan teknis / pemeliharaan server
+**2. Butuh kemampuan teknis / pemeliharaan server**
   Karena self-hosted, pengguna harus siapkan server (hosting, domain, keamanan, backup), melakukan update software, menangani scaling, dan memantau performa & keamanan. Kalau tidak terbiasa, bisa jadi kendala.
 
-3. Biaya lisensi / fitur tambahan
+**3. Biaya lisensi / fitur tambahan**
   Untuk versi dengan fitur lengkap, perlu membeli lisensi atau berlangganan. Jika ingin memakai storage besar atau trafik besar, bakal ada biaya tambahan terkait hosting dan bandwidth.
 
-4. Pengaturan penyimpanan eksternal kadang rumit
+**4. Pengaturan penyimpanan eksternal kadang rumit**
   Beberapa pengguna melaporkan bahwa mengkonfigurasi storage seperti S3 / MinIO atau integrasi remote storage kadang tidak langsung mulus, perlu konfigurasi ekstra
 
-5. Skala besar & trafik tinggi bisa jadi tantangan
+**5. Skala besar & trafik tinggi bisa jadi tantangan**
   Jika jumlah gambar/video sangat banyak dan trafik pengakses tinggi, maka server harus cukup kuat, bandwidth memadai, optimasi caching, mungkin perlu CDN; kalau tidak, loading bisa lambat. Biaya operasional bisa meningkat.
 
-6. Kurva belajar (learning curve)
+**6. Kurva belajar (learning curve)**
   Untuk yang belum pernah setup server / administrasi web, mungkin perlu belajar dulu tentang PHP, MySQL, konfigurasi webserver, keamanan HTTPS, backup, dan sebagainya.
 
-7. Kompatibilitas & pembaruan
+**7. Kompatibilitas & pembaruan**
   Jika tidak mengikuti update reguler, ada risiko bug, celah keamanan, atau ketidakcocokan dengan versi PHP / dependency server yang baru. Juga, modul tambahan / plugin pihak ketiga bisa saja tidak selalu up to date.
 
-8. Fitur tertentu belum ada atau masih berkembang
+**8. Fitur tertentu belum ada atau masih berkembang**
   Misalnya, dukungan untuk federation (saling terhubung antar komunitas), kalau pengguna ingin sistem seperti Pixelfed, mungkin Chevereto belum mendukung secara penuh. Atau komentar publik/komunitas mungkin masih kurang fleksibel dibanding platform sosial media khusus.
 
 ## Perbandingan Chevereto dengan Aplikasi Web Sejenis
