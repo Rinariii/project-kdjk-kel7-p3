@@ -129,27 +129,27 @@ Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
 1. **Login**  
    Panduan login ke akun admin dan user:
      
-   ![Login Page](./docs/Login)
+   ![Login Page](./docs/Login.png)
 
 3. **Landing Page**  
    Penjelasan tampilan awal dan fitur utama:  
 
-   ![Landing Page](./docs/Landing Page)
+   ![Landing Page](./docs/Landing Page.png)
 
 4. **Upload Gambar**  
    Panduan mengunggah gambar dan mendapatkan tautan berbagi:  
 
-   ![Upload Page](./docs/Upload)
+   ![Upload Page](./docs/Upload.png)
 
 5. **Manajemen Album**  
    Cara membuat dan mengelola album:
    
-   ![Album Page](./docs/Album)
+   ![Album Page](./docs/Album.png)
 
 6. **Deskripsi & Metadata**  
    Penjelasan mengenai deskripsi gambar, tag, dan privasi:
    
-   ![Deskripsi Page](./docs/Deskripsi Gambar)
+   ![Deskripsi Page](./docs/Deskripsi Gambar.png)
 
 
 **Tips Penggunaaan**: 
