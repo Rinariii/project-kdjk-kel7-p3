@@ -1,0 +1,28 @@
+services:
+  chevereto:
+    image: chevereto/chevereto:latest
+    container_name: chevereto
+    restart: unless-stopped
+    environment:
+      CHEVERETO_DB_HOST: db
+      CHEVERETO_DB_USER: chevereto
+      CHEVERETO_DB_PASS: chevereto_pass
+      CHEVERETO_DB_NAME: chevereto
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - ./images:/var/www/html/images
+    depends_on:
+      - db
+
+  db:
+    image: mariadb:10.11
+    container_name: chevereto-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: chevereto
+      MYSQL_USER: chevereto
+      MYSQL_PASSWORD: chevereto_pass
+    volumes:
+      - ./db:/var/lib/mysql
