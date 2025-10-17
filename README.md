@@ -127,29 +127,38 @@ Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
 ## 📘 Cara Pemakaian
 
 1. **Login**  
-   Panduan login ke akun admin dan user:
+  Setelah instalasi dan konfigurasi selesai, buka browser dan akses:
+  https://chevereto.kdjkp3.my.id
+  Anda akan diarahkan ke halaman utama Chevereto dan akan diminta login.
+  Silahkan memasukan username dan password untuk masuk ke chevereto.
      
-   ![Login Page](./docs/Login.png)
+  ![Login Page](./docs/Login.png)
 
-3. **Landing Page**  
-   Penjelasan tampilan awal dan fitur utama:  
+2. **Landing Page**  
+  Pertama kali masuk, Chevereto akan meminta konfigurasi dasar.
+  Masukkan nama situs, alamat email admin, dan buat akun admin.
+  Setelah itu, klik Finish Installation. Dan akan memunculkan landing page
 
-   ![Landing Page](./docs/Landing Page.png)
+   ![Landing Page](./docs/Page.png)
 
-4. **Upload Gambar**  
-   Panduan mengunggah gambar dan mendapatkan tautan berbagi:  
+3. **Upload Gambar**  
+  Klik tombol Upload di menu utama.
+  Seret dan jatuhkan gambar atau pilih file dari perangkat.
+  Setelah selesai, Chevereto akan memberikan link langsung (direct link), HTML embed, atau BBCode untuk berbagi.  
 
    ![Upload Page](./docs/Upload.png)
 
-5. **Manajemen Album**  
-   Cara membuat dan mengelola album:
+4. **Manajemen Album**  
+  Buat album untuk mengelompokkan foto.
+  Atur privasi album: publik, tersembunyi, atau pribadi.
+  Gunakan fitur pencarian untuk menemukan gambar dengan cepat.
    
    ![Album Page](./docs/Album.png)
 
-6. **Deskripsi & Metadata**  
-   Penjelasan mengenai deskripsi gambar, tag, dan privasi:
+5. **Deskripsi & Metadata**  
+   Penjelasan mengenai deskripsi gambar, tag, dan privasi yang ada pada gambar
    
-   ![Deskripsi Page](./docs/Deskripsi Gambar.png)
+   ![Deskripsi Page](./docs/Deskripsi.png)
 
 
 **Tips Penggunaaan**: 
