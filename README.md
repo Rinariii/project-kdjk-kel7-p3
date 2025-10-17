@@ -220,6 +220,17 @@ Maka web bisa diakses di (https://chevereto.kdjkp3.my.id)
   Misalnya, dukungan untuk federation (saling terhubung antar komunitas), kalau pengguna ingin sistem seperti Pixelfed, mungkin Chevereto belum mendukung secara penuh. Atau komentar publik/komunitas mungkin masih kurang fleksibel dibanding platform sosial media khusus.
 
 ## Perbandingan Chevereto dengan Aplikasi Web Sejenis
+Chevereto adalah aplikasi **self-hosted image sharing** yang memungkinkan pengguna membuat situs berbagi gambar pribadi di server mereka sendiri. Berbeda dengan layanan seperti **Imgur** atau **Flickr**, Chevereto memberi **kendali penuh terhadap data, tampilan, dan pengelolaan sistem** karena seluruh file dan database disimpan di server milik pengguna.
+
+Dari sisi **privasi**, Chevereto jauh lebih aman karena tidak ada pihak ketiga yang memiliki akses ke gambar atau metadata. Sementara itu, Imgur dan Flickr menyimpan semua data pengguna di server publik mereka, sehingga pengguna harus mempercayakan keamanan data pada penyedia layanan tersebut.
+
+Dalam hal **kustomisasi**, Chevereto sangat fleksibel — pengguna bisa mengubah tema, logo, warna, dan bahkan fitur sesuai kebutuhan. Imgur dan Flickr tidak menyediakan kebebasan seperti ini karena keduanya memiliki desain dan sistem bawaan yang tidak bisa dimodifikasi.
+
+Dari sisi **biaya**, Chevereto memerlukan biaya server (VPS dan domain), tetapi tidak ada batasan penyimpanan selain kapasitas server itu sendiri. Sementara Imgur dan Flickr umumnya gratis untuk penggunaan dasar, namun disertai iklan atau batas penyimpanan tertentu. Untuk penggunaan profesional di Flickr, pengguna bahkan perlu berlangganan versi berbayar.
+
+Chevereto juga unggul dalam hal **kontrol dan integrasi**, karena memiliki API terbuka yang memungkinkan pengguna menambahkan fitur tambahan atau menghubungkannya dengan aplikasi lain. Imgur dan Flickr memang memiliki API, tetapi penggunaannya lebih terbatas dan dikontrol oleh platform mereka.
+
+Secara keseluruhan, Chevereto cocok untuk pengguna yang ingin **memiliki platform berbagi gambar mandiri**, menjaga **privasi penuh**, dan belajar tentang **deploy aplikasi di server sendiri**. Sementara Imgur dan Flickr lebih cocok bagi pengguna yang hanya ingin **kemudahan tanpa perlu konfigurasi teknis**, dengan konsekuensi kehilangan sebagian kendali atas data dan tampilan situs.
 
 
 ## Kesimpulan
